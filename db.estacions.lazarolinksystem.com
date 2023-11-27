@@ -1,3 +1,4 @@
+#Github Ismael Verdugo
 $TTL 1D
 @       IN      SOA     estacions.lazarolinksystem.com. admin.lazarolinksystem.com. (
                         2008052001 ; Número de serie
