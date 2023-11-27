@@ -1,0 +1,17 @@
+$TTL 1D
+@       IN      SOA     estacions.lazarolinksystem.com. admin.lazarolinksystem.com. (
+                        2008052002 ; Número de serie (incrementa si realizas cambios)
+                        604800     ; Tiempo de refresco
+                        86400      ; Tiempo de reintento
+                        2419200    ; Tiempo de expiración
+                        604800 )   ; Tiempo mínimo de TTL
+
+@       IN      NS      ns01.lazarolinksystem.com. ; DNS primario
+        IN      NS      ns02.lazarolinksystem.com. ; DNS secundario
+
+1       IN      PTR     est01.estacions.lazarolinksystem.com.
+2       IN      PTR     est02.estacions.lazarolinksystem.com.
+3       IN      PTR     est03.estacions.lazarolinksystem.com.
+4       IN      PTR     est04.estacions.lazarolinksystem.com.
+5       IN      PTR     est05.estacions.lazarolinksystem.com.
+6       IN      PTR     est06.estacions.lazarolinksystem.com.

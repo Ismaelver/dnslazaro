@@ -1,0 +1,26 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "lazarolinksystem.com" {
+    type master;
+    file "/etc/bind/db.lazarolinksystem.com";
+    allow-transfer { 192.168.144.138; };
+   # allow-update { key "s61uweWvBoMApy6Y05XK5e8j0wVx5NItxpOU297wl3g="; };
+};
+
+zone "estacions.lazarolinksystem.com" {
+    type master;
+    file "/etc/bind/db.estacions.lazarolinksystem.com";
+    allow-transfer { 192.168.144.138; };
+};
+
+zone "34.18.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.34.18.10";
+};
+
